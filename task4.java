@@ -9,11 +9,12 @@ public class task4 {
         t.put("c2", "Green");
         t.put("c3", "Yellow");
          System.out.println(t);
+         
         class sortkey implements Comparator<String> {
 
             @Override
             public int compare(String o1, String o2) {
-                // TODO Auto-generated method stub
+               
                 return o1.compareTo(o2);
 
             }
